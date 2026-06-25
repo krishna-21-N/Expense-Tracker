@@ -19,8 +19,8 @@ A full-stack expense tracking app — built with **FastAPI** (backend), **React*
 
 ```
 expense-tracker/
-├── backend/      # FastAPI app
-└── frontend/     # React app
+├── backend/      # FastAPI,python,mysql
+└── frontend/     # React,javascript
 ```
 
 ## Getting Started
