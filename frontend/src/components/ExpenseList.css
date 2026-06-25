@@ -1,0 +1,120 @@
+.expense-list {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expense-list h3 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.expense-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.expense-item {
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 20px;
+  transition: box-shadow 0.2s;
+}
+
+.expense-item:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.expense-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.expense-info {
+  flex: 1;
+}
+
+.expense-info h4 {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.expense-description {
+  margin: 0 0 10px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.expense-meta {
+  display: flex;
+  gap: 15px;
+  font-size: 13px;
+}
+
+.expense-category {
+  background: #667eea;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  text-transform: capitalize;
+}
+
+.expense-date {
+  color: #888;
+}
+
+.expense-amount {
+  text-align: right;
+}
+
+.amount-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.expense-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-edit {
+  background: #667eea;
+  color: white;
+}
+
+.btn-edit:hover {
+  background: #5568d3;
+}
+
+.btn-delete {
+  background: #fee;
+  color: #c33;
+}
+
+.btn-delete:hover {
+  background: #fdd;
+}
+
+.no-expenses {
+  text-align: center;
+  padding: 60px 20px;
+  color: #888;
+  font-size: 16px;
+}
